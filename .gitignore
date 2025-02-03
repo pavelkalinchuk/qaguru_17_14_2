@@ -4,3 +4,4 @@ __pycache__
 allure-report
 allure-results
 .env
+.DS_Store
