@@ -69,19 +69,19 @@ ___
 ### В Allure
 
 #### Общий
-<img src="resources/allure_general.png" width="630" height="320"/>
+<img src="resources/main_report_page.png" width="630" height="320"/>
 
 #### Детальный
 
-<img src="resources/allure_detailed.png" width="630" height="320"/>
+<img src="resources/detail_report_page.png" width="630" height="320"/>
 
 #### Видеопрохождение теста
 
-<img src="resources/pytest.ini.gif" width="630" height="320"/>
+<img src="resources/luma_shop_test.gif" width="630" height="320"/>
 
 ### В Telegram
 
-<img src="resources/telegram_report.png" width="350" height="400"/>
+<img src="resources/telegram_report.png" width="350" height="450"/>
 
 ---
 
