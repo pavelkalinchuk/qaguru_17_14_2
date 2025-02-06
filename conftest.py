@@ -13,7 +13,7 @@ load_dotenv()
 @pytest.fixture(scope="session", autouse=True)
 def setup_browser():
     driver_options = webdriver.ChromeOptions()
-    driver_options.page_load_strategy = 'eager'
+    driver_options.page_load_strategy = 'normal'
     driver_options.add_argument('--window-size=1920,1080')
     selenoid_capabilities = {
         "browserName": "chrome",
@@ -35,6 +35,7 @@ def setup_browser():
     driver = webdriver.Remote(command_executor=selenoid_url, options=driver_options)
 
     browser.config.driver = driver
+    browser.config.timeout = 10.0
     browser.config.base_url = 'https://magento.softwaretestingboard.com/'
     browser.open('/')
 
